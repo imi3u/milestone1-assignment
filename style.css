@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+
+.sign-in{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #006A50;
+    font-weight: bold;
+    color: #006A50;
+    font-size: 18px;
+}
+.logo{
+    font-size: 32px;
+}
