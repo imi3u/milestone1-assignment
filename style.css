@@ -1,6 +1,17 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    /* background-color: #F5F5F5; */
 }
 
 .navbar{
@@ -9,8 +20,9 @@
     padding: 10px;
 }
 
+
 body{
-    margin: 0px 80px;
+    margin: 0px 100px;
 }
 
 .sign-in{
@@ -22,6 +34,18 @@ body{
     color: #006A50;
     font-size: 18px;
 }
+
+.sign-in:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
 .logo{
     font-size: 32px;
 }
@@ -42,12 +66,6 @@ body{
 }
 
 
-/* main{
-    width: 100%;
-    
-    text-align: center;
-    
-} */
 
 .vision-container{
     text-align: center;
@@ -124,7 +142,6 @@ body{
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 32px;
-    /* padding: 32px; */
     gap: 24px;
 
 }
@@ -139,7 +156,13 @@ body{
     border-radius: 16px;
     text-align: justify;
     margin-bottom: 80px;
+    background-image:  url(./assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    
+    
 }
+
+
 
 .recent-news{
     margin-bottom: 32px;
@@ -185,9 +208,10 @@ body{
 .box-button{
     background-color: #006A50;
     color: white;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 7px;
+    padding: 10px 20px;
     align-content: end;
+    font-weight: 600;
 }
 
 .donate{
